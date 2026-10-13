@@ -2,7 +2,7 @@
 
 A console-based C++ airline search and reservation project that models flights as a graph and uses shortest-path techniques to find practical routes by cost or travel time.
 
-[![C++ checks](https://github.com/SameetAsadullah/Airline-Reservation-System/actions/workflows/quality.yml/badge.svg)](https://github.com/SameetAsadullah/Airline-Reservation-System/actions/workflows/quality.yml)
+[![C++ checks](https://github.com/SameetAsadullah/airline-route-planner/actions/workflows/quality.yml/badge.svg)](https://github.com/SameetAsadullah/airline-route-planner/actions/workflows/quality.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Highlights
