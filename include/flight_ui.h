@@ -1,5 +1,5 @@
 #pragma once
-#include "Flight.h"
+#include "flight.h"
 
 class FlightUI {
 public:

@@ -18,33 +18,26 @@ A console-based C++ airline search and reservation project that models flights a
 
 | Path | Purpose |
 |---|---|
-| `src/Main.cpp` | Application entry point |
-| `src/Graph.h` | Flight graph, traversal, and optimized-route logic |
-| `src/Flight.h` | Flight and schedule domain model |
-| `src/List.h`, `src/Vector.h`, `src/Stack.h` | Custom data structures |
-| `src/UserInterface.h` | Interactive console workflow |
-| `src/Flights.txt` | Flight schedule input |
-| `src/HotelCharges_perday.txt` | Per-city hotel rates |
+| `src/main.cpp` | Application entry point |
+| `include/graph.h` | Flight graph, traversal, and optimized-route logic |
+| `include/flight.h` | Flight and schedule domain model |
+| `include/list.h`, `include/vector.h`, `include/stack.h` | Custom data structures |
+| `include/user_interface.h` | Interactive console workflow |
+| `data/flights.txt` | Flight schedule input |
+| `data/hotel-charges.txt` | Per-city hotel rates |
 
 ## Build and run
 
-### Portable command-line build
-
 ```bash
-cd src
-g++ -std=c++17 -O2 Main.cpp -o airline-reservation
-./airline-reservation
+make
+./build/airline-route-planner
 ```
 
-Run the executable from `src/` so the bundled data files can be found.
-
-### Windows solution build
-
-Open the bundled `src/Project.sln`, select a C++17-compatible toolset, and run the `Project` target.
+Run the executable from the repository root so the bundled data files can be found.
 
 ## Input data
 
-Each line in `Flights.txt` contains the departure city, destination city, departure date, departure and arrival times, ticket price, and airline. `HotelCharges_perday.txt` maps layover cities to daily hotel costs. Both files can be edited to explore other networks.
+Each line in `data/flights.txt` contains the departure city, destination city, departure date, departure and arrival times, ticket price, and airline. `data/hotel-charges.txt` maps layover cities to daily hotel costs. Both files can be edited to explore other networks.
 
 ## Screenshots
 

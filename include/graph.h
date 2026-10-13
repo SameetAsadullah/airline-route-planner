@@ -1,13 +1,13 @@
 #pragma once
 #include <iostream>
-#include "Flight.h"
-#include "Vector.h"
-#include "List.h"
+#include "flight.h"
+#include "vector.h"
+#include "list.h"
 #include <fstream>
-#include "Stack.h"
-#include "makeGraph.h"
-#include "FlightUI.h"
-#include "ListUI.h"
+#include "stack.h"
+#include "make_graph.h"
+#include "flight_ui.h"
+#include "list_ui.h"
 using namespace std;
 
 #define t "\t\t\t\t\t\t";

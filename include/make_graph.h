@@ -1,8 +1,8 @@
 #pragma once
 #include <iostream>
-#include "Vector.h"
+#include "vector.h"
 #include <fstream>
-#include "List.h"
+#include "list.h"
 #include <string>
 using namespace std;
 

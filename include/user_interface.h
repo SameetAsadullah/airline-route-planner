@@ -1,8 +1,8 @@
 #pragma once
 #include<iostream>
 #include<string>
-#include"Graph.h"
-#include"Flight.h"
+#include "graph.h"
+#include "flight.h"
 using namespace std;
 
 class UI {
