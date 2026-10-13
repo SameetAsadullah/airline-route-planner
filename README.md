@@ -38,9 +38,9 @@ g++ -std=c++17 -O2 Main.cpp -o airline-reservation
 
 Run the executable from `src/` so the bundled data files can be found.
 
-### Visual Studio
+### Windows solution build
 
-Open `src/Project.sln`, select a C++17-compatible toolset, and run the `Project` target.
+Open the bundled `src/Project.sln`, select a C++17-compatible toolset, and run the `Project` target.
 
 ## Input data
 
@@ -54,7 +54,7 @@ Each line in `Flights.txt` contains the departure city, destination city, depart
 
 ## Project status
 
-This is a preserved university data-structures project. The implementation remains close to the original work; repository maintenance focuses on portability, documentation, and removal of generated IDE artifacts.
+The route-planning implementation remains close to its original design, while repository maintenance focuses on portability, documentation, and removal of generated IDE artifacts.
 
 ## License
 
