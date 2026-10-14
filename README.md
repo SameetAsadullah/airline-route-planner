@@ -1,4 +1,4 @@
-# Airline Reservation System
+# Airline Route Planner
 
 A console-based C++ airline search and reservation project that models flights as a graph and uses shortest-path techniques to find practical routes by cost or travel time.
 
